@@ -68,6 +68,10 @@ PRODUCT_PACKAGES += \
 # Board
 TARGET_BOARD_PLATFORM := pineapple
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom
