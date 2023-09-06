@@ -816,4 +816,14 @@
          for more details on the constant values and meanings. -->
     <integer name="config_defaultHapticFeedbackIntensity">3</integer>
 
+    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
+    <integer-array name="config_availableColorModes">
+        <item>258</item> <!-- vivid -->
+        <item>256</item> <!-- saturated -->
+        <item>257</item> <!-- standard -->
+        <item>269</item> <!-- original -->
+        <item>268</item> <!-- p3 -->
+        <item>267</item> <!-- srgb -->
+    </integer-array>
+
 </resources>
