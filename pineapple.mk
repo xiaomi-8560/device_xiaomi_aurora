@@ -384,6 +384,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-V2-ndk.vendor
 
+# Linker config
+PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
+    $(DEVICE_PATH)/configs/linker.config.json
+
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.2.vendor \
