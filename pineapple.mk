@@ -461,6 +461,10 @@ PRODUCT_PACKAGES += \
     WifiResTarget \
     WifiResTarget_spf
 
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
