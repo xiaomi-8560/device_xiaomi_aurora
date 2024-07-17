@@ -444,8 +444,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierConfig \
     FrameworksRes \
+    SecureElementResTarget \
     TelephonyRes \
-    WifiRes
+    WifiRes \
+    WifiResTarget \
+    WifiResTarget_spf
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
