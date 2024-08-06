@@ -510,6 +510,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# RIL modem_firmware symlink
+PRODUCT_PACKAGES += \
+    rfs_msm_mpss_readonly_modem_firmware_symlink \
+    rfs_msm_mpss_readonly_mbnconfig_symlink
+
 # Servicetracker
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2.vendor
