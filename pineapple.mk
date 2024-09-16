@@ -442,7 +442,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfig
+    CarrierConfig \
+    FrameworksRes
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
