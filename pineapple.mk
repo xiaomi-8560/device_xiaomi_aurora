@@ -550,10 +550,14 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 PRODUCT_PACKAGES += \
+    xiaomi-telephony-stub
+
+PRODUCT_PACKAGES += \
     framework-permission-aidl-cpp.vendor
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext
+    telephony-ext \
+    xiaomi-telephony-stub
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.xml \
