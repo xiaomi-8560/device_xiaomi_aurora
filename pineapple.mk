@@ -445,6 +445,7 @@ PRODUCT_PACKAGES += \
     CarrierConfig \
     FrameworksRes \
     SecureElementResTarget \
+    SystemUIRes \
     TelephonyRes \
     WifiRes \
     WifiResTarget \
