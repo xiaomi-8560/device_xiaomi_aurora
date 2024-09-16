@@ -443,7 +443,9 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfig \
-    FrameworksRes
+    FrameworksRes \
+    TelephonyRes \
+    WifiRes
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
