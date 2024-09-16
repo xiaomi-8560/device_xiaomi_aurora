@@ -327,7 +327,11 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    init.recovery.qcom.rc \
+    init.target.rc \
+    ueventd.odm.rc \
+    ueventd.qcom.rc
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
