@@ -35,7 +35,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
+    $(DEVICE_PATH) \
+    hardware/xiaomi
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -627,14 +628,10 @@ PRODUCT_PACKAGES += \
     vndservicemanager
 
 # Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
+$(call inherit-product, hardware/xiaomi/aidl/vibrator/vibrator-vendor-product.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-V1-ndk_platform.vendor
-
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Verified boot
 PRODUCT_COPY_FILES += \
