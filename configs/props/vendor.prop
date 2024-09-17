@@ -89,7 +89,6 @@ ro.hardware.camera=xiaomi
 ro.soc.manufacturer=QTI
 
 # Display
-ro.vendor.displayfeature.dump=true
 vendor.display.comp_mask=0
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
