@@ -227,6 +227,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.demura-V1-ndk.vendor \
     vendor.qti.hardware.display.postproc-V1-ndk.vendor
 
+# Dolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
