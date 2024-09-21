@@ -82,6 +82,8 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 
 # Camera
+camera.disable_zsl_mode=1
+ro.camera.enableCamera1MaxZsl=1
 ro.camerax.extensions.enabled=true
 ro.hardware.camera=xiaomi
 
