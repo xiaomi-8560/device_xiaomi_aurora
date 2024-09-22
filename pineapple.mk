@@ -147,6 +147,8 @@ TARGET_BOARD_PLATFORM := pineapple
 
 # Camera
 PRODUCT_PACKAGES += \
+    android.frameworks.cameraservice.service-V1-ndk \
+    android.frameworks.cameraservice.device-V1-ndk \
     android.hardware.camera.common-V1-ndk.vendor \
     android.hardware.camera.device-V2-ndk.vendor \
     android.hardware.camera.metadata-V2-ndk.vendor \
@@ -159,6 +161,7 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     libcamera2ndk_vendor \
     libcamera_metadata.vendor \
+    libcameraservice \
     libexif.vendor \
     libpiex.vendor \
     libutilscallstack.vendor \
