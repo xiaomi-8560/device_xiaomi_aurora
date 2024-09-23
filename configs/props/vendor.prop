@@ -159,7 +159,7 @@ persist.vendor.dpm.vndr.feature=11
 
 # DRM
 drm.service.enabled=true
-ro.crypto.metadata_init_delete_all_keys.enabled=true
+vendor.wv.oemcrypto.debug.enable_hlos_data_path=true
 
 # Fingerprint
 persist.vendor.sys.fp.expolevel=0x88
@@ -218,6 +218,7 @@ vendor.gralloc.disable_ubwc=0
 ro.incremental.enable=yes
 
 # Keystore
+ro.crypto.metadata_init_delete_all_keys.enabled=true
 ro.hardware.keystore_desede=true
 
 # Media
